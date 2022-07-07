@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+}
+.container {
+  /* display: flex; */
+  /* height: 400px; */
+  display: grid;
+  /* grid-template-columns: 100px 200px 300px;
+  grid-template-columns: repeat(3,200px);
+   grid-template-columns: 1fr 2fr 1fr; */
+  /* grid-template-columns: repeat(3, minmax(200px, 1fr)); */
+
+  /* grid-template-rows: 100px 200px 300px;
+  grid-template-rows: repeat(3,100px);
+  grid-template-rows: repeat(3,100px) 200px; */
+  /* height:400px;
+  grid-template-rows: repeat(3,1fr); */
+
+  /* grid-template: repeat(3, 1fr) / repeat(3, minmax(200px, 1fr)) ; */
+
+  /* column-gap: 20px;
+row-gap: 30px; */
+
+  /* gap: 20px 30px; */
+
+  /* justify-items:stretch ;
+justify-items: start;
+justify-items: center;
+justify-items: end; */
+
+  /* align-items: center; */
+
+  /* place-items: start end;
+place-items: center; */
+
+  /* height: 800px;
+grid-template: repeat(3, 200px) / repeat(3, 200px); */
+
+  /* justify-content:start; 
+justify-content: end;
+justify-content: center;
+justify-content: space-between;
+justify-content: space-around;*/
+  /* justify-content: space-evenly;  */
+
+  /* align-content: start;
+end,center,space-between,space-around,space-evenly */
+  /* align-content: space-evenly; */
+
+  /* place-content: start end;
+place-content: space-evenly; */
+
+  /* grid-auto-flow: row;
+grid-auto-flow: column;
+grid-auto-columns: 100px;
+grid-auto-rows: 200px; */
+
+  grid-template: repeat(3, 200px) / repeat(3, 200px);
+
+  border: 6px solid black;
+}
+
+.flex-item {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+.item-1 {
+  background-color: #b4bf35;
+
+  /* grid-column-start: 1; */
+  /* grid-column-end: 4; */
+  /* grid-column-end: span 2;
+  grid-row-start: 1;
+  grid-row-end: 3; */
+
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+
+
+}
+.item-2 {
+  background-color: #b95f21;
+  /* justify-self: stretch;
+  justify-self: start;
+  justify-self: center;
+  justify-self: end; */
+
+  /* align-self: stretch;
+  align-self: start;
+  align-self: center;
+  align-self: end; */
+
+  place-self: start end;
+  place-self:center;
+}
+.item-3 {
+  background-color: #1c4c56;
+}
+.item-4 {
+  background-color: #cfb276;
+}
+.item-5 {
+  background-color: #6b0803;
+}
+.item-6 {
+  background-color: #1c4c56;
+}
+.item-7 {
+  background-color: #b95f21;
+}
+.item-8 {
+  background-color: #01243a;
+}
+.item-9 {
+  background-color: #aad041;
+}

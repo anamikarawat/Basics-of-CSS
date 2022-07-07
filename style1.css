@@ -1,0 +1,127 @@
+.font-styles {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 4px;
+  word-spacing: 20px;
+}
+#test {
+  color: brown;
+}
+.success {
+  color: green;
+}
+.error {
+  color: rgba(red, green, blue, 0.2);
+}
+
+ul {
+  list-style-type: square;
+  /* margin:0;
+    padding:0; */
+}
+.box-model {
+  border: 1px solid red;
+  height: 50px;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.sub-heading{
+    color:blue;
+
+}
+.h2{
+    color:red;
+}
+#title{
+    color:aqua;
+}
+
+.inheritance{
+    color:orangered;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+}
+
+th,td{
+    border:1px solid #ccc;
+    padding: 15px;
+}
+table{
+    border-collapse: collapse;
+    width:60%;
+
+}
+td{
+    text-align: center;
+}
+
+.content-1{
+    border: 1px solid red;
+    display: inline;
+}
+
+.content-2{
+    border: 1px solid blue;
+    display: block;
+}
+
+.position-1{
+    border:1px solid red;
+    position: static;
+
+}
+.position-2{
+    border:1px solid blue;
+    position: static;
+    
+}
+
+/* position can be relative , absolute, fixed */
+.container{
+    position: relative;
+    width: 200px;
+    border: 1px solid black;
+
+}
+
+/* css units are absolute & relative  */
+
+.em-container{
+    font-size: 20px;
+    height: 2em;
+}
+
+.em{
+    font-size: 1.5em;
+}
+
+.rem{
+    font-size: 3rem;
+    height:50vh;
+    border: 1px solid #333;
+    width: 50vw;
+}
+
+/* css math function */
+/* height : calc(50vh - 100px); */
+/* height: max(50vh, 600px); */
+/* height: min(50vh, 600px); */
+
+
+

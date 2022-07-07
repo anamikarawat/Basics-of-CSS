@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+}
+.container {
+  /* display:inline-flex; */
+  display: flex;
+  height: 400px;
+  /* height: 800px;
+  flex-wrap: wrap;
+  align-content: flex-start; */
+  /* align-content: space-around; */
+
+  /* height: 800px;
+  align-items: flex-start; */
+
+  /* justify-content: flex-end;
+  justify-content:center;
+  justify-content:space-around;
+justify-content: flex-start; */
+
+  /* row-gap: 20px;
+  column-gap: 30px;
+gap:20px 30px; */
+
+  /* flex-flow:row nowrap; */
+
+  /* flex-wrap: nowrap;
+flex-wrap: wrap;
+flex-wrap: wrap-reverse; */
+
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column;
+   flex-direction: column-reverse;
+   flex-direction: row; */
+
+  /* align-self: flex-end; */
+
+  border: 6px solid black;
+}
+.flex-item {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  /* flex-grow: 1; */
+  /* flex-shrink: 0;
+width:5rem; */
+}
+.item-1 {
+  background-color: #b4bf35;
+  /* flex-basis: auto; */
+  /* flex-basis: 200px;
+  flex-grow: 1; */
+
+  align-self: flex-start;
+}
+.item-2 {
+  background-color: #b95f21;
+  /* flex-shrink: 4; */
+
+  align-self: flex-end;
+}
+.item-3 {
+  background-color: #1c4c56;
+  /* order: 1; */
+  align-self: stretch;
+}
+.item-4 {
+  background-color: #cfb276;
+}
+.item-5 {
+  background-color: #6b0803;
+  /* flex-grow: 1; */
+}
+.item-6 {
+  background-color: #1c4c56;
+}
+.item-7 {
+  background-color: #b95f21;
+  /* order: 2; */
+  /* flex-grow: 3; */
+}
+.item-8 {
+  background-color: #01243a;
+}
+.item-9 {
+  background-color: #aad041;
+}

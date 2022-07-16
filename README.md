@@ -97,6 +97,7 @@ create either a block level or inline level grid container . (Grid , inline-grid
 
 ![Screenshot (1886)](https://user-images.githubusercontent.com/95397876/179361607-8e77ea45-f63d-4836-8532-3992a307aa06.png)
 
+![Screenshot (1886)](https://user-images.githubusercontent.com/95397876/179361693-94fde99e-23f8-44e5-a1cd-0fdca55b32bf.png)
 
 
 

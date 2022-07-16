@@ -62,7 +62,54 @@ em ex ch rem lh vw vh vmin vmax
   # Baseline
   ![Screenshot (1850)](https://user-images.githubusercontent.com/95397876/177953489-7c286b75-dae3-4bbf-8e79-7e72801fa863.png)
 
-  
+  ![Screenshot (1850)](https://user-images.githubusercontent.com/95397876/179360893-df1b3ca0-cbc5-46e4-96fb-76cf3b776f94.png)
+
+  ![Screenshot (1850)](https://user-images.githubusercontent.com/95397876/179360914-b963ff87-1d87-4d58-b920-2d10ed80199d.png)
+
+# Flex-Basis
+Set the initial size of a flex item. Pixels, percentages or relative units, Default value is auto.
+
+![Screenshot (1850)](https://user-images.githubusercontent.com/95397876/179361089-562682b1-ca70-4f14-bcee-57e32dfbe296.png)
+
+# Flex-Values
+![Screenshot (1850)](https://user-images.githubusercontent.com/95397876/179361145-512b5e99-08f7-41cf-bdb0-5e1ce708e696.png)
+
+# align-self
+Align the items individually . values like auto , flex-start, flex-end , center and  . Overrides the align-items value of the flex container.
+
+# CSS GRID
+![Screenshot (1850)](https://user-images.githubusercontent.com/95397876/179361283-e74643f0-e828-4b53-a08a-a406f4f9f20a.png)
+
+# Terminology
+![Screenshot (1850)](https://user-images.githubusercontent.com/95397876/179361319-4149dde3-8cd7-47c6-a4c4-5b374c75a07a.png)
+
+# Terminology contains
+1. Grid line
+2. Grid cell
+3. Grid track
+4. Grid Area
+
+# Grid Container Properties
+Display, grid-template-columns , grid-template-rows , grid-template , column-gap , row-gap , gap , justify-items , align-items ,place-items , justify- content , align-content , place-content , grid-auto-columns , grid-auto-rows , grid-auto-flow
+
+# Display 
+create either a block level or inline level grid container . (Grid , inline-grid)
+
+![Screenshot (1886)](https://user-images.githubusercontent.com/95397876/179361607-8e77ea45-f63d-4836-8532-3992a307aa06.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
 

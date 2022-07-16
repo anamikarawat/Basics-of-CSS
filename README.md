@@ -99,6 +99,27 @@ create either a block level or inline level grid container . (Grid , inline-grid
 
 ![Screenshot (1886)](https://user-images.githubusercontent.com/95397876/179361693-94fde99e-23f8-44e5-a1cd-0fdca55b32bf.png)
 
+# grid-template
+  shorthand for specifying rows and columns
+  value is <grid-template-rows>/<grid-template-columns>
+  
+  ![Screenshot (1886)](https://user-images.githubusercontent.com/95397876/179361820-6b6da49f-7fbc-4eac-a79f-0cd184c6090d.png)
+
+  ![Screenshot (1886)](https://user-images.githubusercontent.com/95397876/179361842-a6ff80e3-7928-4b68-87df-3e52d6ffa079.png)
+
+  ![Screenshot (1886)](https://user-images.githubusercontent.com/95397876/179361856-742d97b8-536a-4dc8-85de-40cc65cff13c.png)
+
+  ![Screenshot (1886)](https://user-images.githubusercontent.com/95397876/179361884-8d080e8e-9774-4e78-a781-58b075a0398a.png)
+ 
+  # Further reading
+  grid-template-areas , grid
+  
+  # Grid item properties
+  grid-column-start , grid-column-end , grid-row-start , grid-row-end , grid-column , grid-row , justify-self , align-self , place-self
+  
+  ![Screenshot (1886)](https://user-images.githubusercontent.com/95397876/179362001-3f81c6dc-86a8-4617-b564-b3c7920a5d0b.png)
+
+  ![Screenshot (1886)](https://user-images.githubusercontent.com/95397876/179362027-c2a4d324-1794-468e-bed1-befabe23cd44.png)
 
 
 
